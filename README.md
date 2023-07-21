@@ -5,13 +5,17 @@ This project aims to solve a semantic segmentation task using deep learning mode
 
 Dataset: Cambridge Labeled Objects in Video
 It consists of 101 images (960x720 pixel) in which each pixel was manually assigned to one of the following 32 object classes that are relevant in a driving environment:
+
 <img width="422" alt="image" src="https://github.com/kiransparakkal/Semantic-Segmentation-using-Deep-Learning/assets/70934344/977dc334-b16e-43eb-b10a-e9e7bc43c616">
+
 
 
 The "void" label indicates an area which ambiguous or irrelevant in this context. The colour/class association is given in the file label_colors.txt. Each line has the R G B values (between 0 and 255) and then the class name.
 
 Example of original and labelled frames:
+
 <img width="455" alt="image" src="https://github.com/kiransparakkal/Semantic-Segmentation-using-Deep-Learning/assets/70934344/1f5a7d68-1fdd-4ea6-be0b-14258447537d">
+
 
 
 Image format and naming: All images (original and ground-truth) are in uncompressed 24-bit colour PNG format. For each frame from the original sequence, its corresponding labelled frame bears the same name, with an extra "_L" before the ".png" extension. For example, the first frame is "0016E5_07959.png" and the corresponding labelled frame is "0016E5_07959_L.png".
