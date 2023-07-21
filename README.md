@@ -5,6 +5,7 @@ This project aims to solve a semantic segmentation task using deep learning mode
 
 Dataset: Cambridge Labeled Objects in Video
 It consists of 101 images (960x720 pixel) in which each pixel was manually assigned to one of the following 32 object classes that are relevant in a driving environment:
+https://www.kaggle.com/datasets/kiransanthosh22/the-cambridge-labelled-video-database-camvid
 
 <img width="422" alt="image" src="https://github.com/kiransparakkal/Semantic-Segmentation-using-Deep-Learning/assets/70934344/977dc334-b16e-43eb-b10a-e9e7bc43c616">
 
